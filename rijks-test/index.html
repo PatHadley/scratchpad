@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+  <html ng-app="RijksTest">
+  <head>
+    <meta charset="utf-8">
+    <title>rijks test</title>
+    <script type="text/javascript" src="./bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="./bower_components/angular-resource/angular-resource.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body>
+    <header><h1>rijkstest</h1></header>
+    <main>
+      <div ng-controller="rijksIndexCtrl as rijks">
+        <ul>
+          <li ng-repeat="object in rijks.title"></li>
+        </ul>
+
+      </div>
+      
+    </main>
+  </body>
+</html>
